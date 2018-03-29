@@ -19,6 +19,8 @@ int rate,price,omi,toti,totp,time;
   time=34;
   toti=omi*time;
   System.out.println("The Total Intrest is +"toti);
+  totp=toti+price;
+  System.out.println("The total payable amount is "+totp);
   
 }
 }
